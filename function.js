@@ -1,27 +1,10 @@
 'use strict';
-/*
-document.querySelector('.message').textContent='🎊 Congrats Bro';
-document.querySelector('.number').textContent = 15;
-document.querySelector('.score').textContent = 25;
-	document.querySelector('.message').textContent='🎊 Congrats Bro';
-	const random = Math.floor(Math.random()*20)+1;
-	
-	document.querySelector('.number').textContent = document.querySelector('.guess').value;
-console.log(document.querySelector('.guess').value);
-document.querySelector('.guess').value=30;*/
-
-// const dialogueBox = document.querySelector('.message').textConten;
-// console.log(dialogueBox);
-// console.log(random);
-// console.log(guess)
 
 const check = document.querySelector(".check")
-//const dialogueBox = document.querySelector('.message');
 let scoreBox = document.querySelector('.score');
 const resulBox = document.querySelector('.number');
 const body = document.querySelector(".body")
 const big = document.querySelector(".big");
-// const highScore = document.querySelector(".highscore");
 let score = 20;
 let highscore = 0;
 let random = Math.floor(Math.random()*20)+1;
@@ -106,12 +89,4 @@ refreshBtn.addEventListener('click',function(){
 	resulBox.style.width = '2em';
 	console.log(random);
 })
-
-// document.querySelector('.btn again').addEventListener('click',function( ){
-// 	score = 20;
-// 	random = Math.floor(Math.random()*20)+1;
-// 	dialogueBox.textContent = 'Start Guess again';
-// 	scoreBox.textContent = score;
-// 	resulBox.textContent = '?';
-// });
 
